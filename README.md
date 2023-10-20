@@ -1,6 +1,7 @@
 # Lambda Code For Daily Scheduler for RDS Stop and Start
  - Create Lambda Function With Nodejs 18 version
  - Use AWS-SDK package as a layers features to support this lambda function code
+ - Configure Lambda Environment Varialbes for DB_CLUSTER_IDENTIFIER = your rds identifier name
 
 ``` "use strict";
 const AWS = require("aws-sdk");
