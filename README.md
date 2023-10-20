@@ -1,6 +1,6 @@
-# Create Lambda Function In Nodejs 18 version
-# attach AWS-SDK package as a layers to get it working
 # Lambda Code For Daily Scheduler for RDS Stop and Start
+ - Create Lambda Function With Nodejs 18 version
+ - Use AWS-SDK package as a layers features to support this lambda function code
 
 ``` "use strict";
 const AWS = require("aws-sdk");
