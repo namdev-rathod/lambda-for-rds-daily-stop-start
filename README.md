@@ -1,9 +1,8 @@
-# lambda-for-rds-daily-stop-start
-
 # Create Lambda Function In Nodejs 18 version
 # attach AWS-SDK package as a layers to get it working
 # Lambda Code For Daily Scheduler for RDS Stop and Start
-"use strict";
+
+``` "use strict";
 const AWS = require("aws-sdk");
 exports.handler = async (event) => {
     const rds = new AWS.RDS();
